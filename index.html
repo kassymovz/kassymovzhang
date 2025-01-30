@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор счет</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="website icon" type="png"href="https://static.tildacdn.com/tild3631-3831-4535-a532-343139636535/calc.png">
+</head>
+<body>
+    <div class="calcukator"><br>
+        <header>
+            <input type="text" placeholder="Напишите число"id="somedigit">
+        </header><br>
+        <main>
+            <button onclick="f1('1')">1</button>
+            <button onclick="f2('2')">2</button>
+            <button onclick="f3('3')">3</button>
+            <button onclick="f4('4')">4</button>
+            <button onclick="f5('5')">5</button>
+        </main><br>
+        <footer>
+            <button onclick="f6('6')">6</button>
+            <button onclick="f7('7')">7</button>
+            <button onclick="f8('8')">8</button>
+            <button onclick="f9('9')">9</button>
+            <button onclick="f10('10')">10</button>
+        </footer><br>
+        <div class="downdigits">
+            <button onclick="f11('11')">11</button>
+            <button onclick="f12('12')">12</button>
+            <button onclick="f13('13')">13</button>
+            <button onclick="f14('14')">14</button>
+            <button onclick="f15('15')">15</button>
+        </div><br>
+        <div id="digits">
+            <button onclick="f16('16')">16</button>
+            <button onclick="f17('17')">17</button>
+            <button onclick="f20('18')">18</button>
+            <button onclick="f19('19')">19</button>
+            <button onclick="f20('20')">20</button>
+        </div><br>
+        <div id="math-operations">
+            <button onclick="subtract('-')">-</button>
+            <button onclick="add('+')">+</button>
+            <button onclick="multiply('*')">*</button>
+            <button onclick="devide('/')">/</button>
+            <button onclick="clearFun()">C</button>
+            <button onclick="equall()">=</button>
+        </div>
+    </div>
+</body>
+</html>
